@@ -1,0 +1,20 @@
+{
+  "businessName": "Protune Auto Services",
+  "timezone": "Asia/Dubai",
+  "currency": "AED",
+  "categories": ["Sedan / Coupe", "SUV / Crossover", "Large SUV / Van"],
+  "socials": [],
+  "gallery": [],
+  "packages": [],
+  "branches": [
+    {"id":"dso","name":"Dubai Silicon Oasis","short":"DSO","address":null,"mapUrl":null,"phone":null,"whatsapp":null,"photo":null,"hours":{},"capacity":null,"blocked":[],"bookingEnabled":false},
+    {"id":"dip","name":"Dubai Investment Park","short":"DIP","address":null,"mapUrl":null,"phone":null,"whatsapp":null,"photo":null,"hours":{},"capacity":null,"blocked":[],"bookingEnabled":false}
+  ],
+  "services": [
+    {"id":"wash","name":"Car wash","description":"A fresh start for your car. Explore wash options with your preferred branch.","icon":"wash","branches":{}},
+    {"id":"oil","name":"Oil & filter change","description":"Give your engine the attention it deserves. Ask about oil and filter options for your vehicle.","icon":"oil","branches":{}},
+    {"id":"interior","name":"Interior detailing","description":"Care for the space you spend time in, with attention to your cabin’s surfaces and finishes.","icon":"interior","branches":{}},
+    {"id":"exterior","name":"Exterior detailing","description":"Bring the focus back to your finish. Discuss exterior care suited to your car’s condition.","icon":"exterior","branches":{}},
+    {"id":"full","name":"Full detailing","description":"Interior and exterior care, brought together. Request a tailored scope for your vehicle.","icon":"full","branches":{}}
+  ]
+}

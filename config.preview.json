@@ -1,0 +1,284 @@
+{
+  "businessName": "Protune Auto Services",
+  "timezone": "Asia/Dubai",
+  "currency": "AED",
+  "categories": [
+    "Sedan / Coupe",
+    "SUV / Crossover",
+    "Large SUV / Van"
+  ],
+  "socials": [],
+  "gallery": [],
+  "packages": [],
+  "branches": [
+    {
+      "id": "dso",
+      "name": "Dubai Silicon Oasis",
+      "short": "DSO",
+      "address": null,
+      "mapUrl": null,
+      "phone": null,
+      "whatsapp": null,
+      "photo": null,
+      "hours": {
+        "0": [
+          "09:00",
+          "20:00"
+        ],
+        "1": [
+          "09:00",
+          "20:00"
+        ],
+        "2": [
+          "09:00",
+          "20:00"
+        ],
+        "3": [
+          "09:00",
+          "20:00"
+        ],
+        "4": [
+          "09:00",
+          "20:00"
+        ],
+        "5": [
+          "09:00",
+          "20:00"
+        ],
+        "6": [
+          "09:00",
+          "20:00"
+        ]
+      },
+      "capacity": 2,
+      "blocked": [],
+      "bookingEnabled": true
+    },
+    {
+      "id": "dip",
+      "name": "Dubai Investment Park",
+      "short": "DIP",
+      "address": null,
+      "mapUrl": null,
+      "phone": null,
+      "whatsapp": null,
+      "photo": null,
+      "hours": {
+        "0": [
+          "09:00",
+          "20:00"
+        ],
+        "1": [
+          "09:00",
+          "20:00"
+        ],
+        "2": [
+          "09:00",
+          "20:00"
+        ],
+        "3": [
+          "09:00",
+          "20:00"
+        ],
+        "4": [
+          "09:00",
+          "20:00"
+        ],
+        "5": [
+          "09:00",
+          "20:00"
+        ],
+        "6": [
+          "09:00",
+          "20:00"
+        ]
+      },
+      "capacity": 2,
+      "blocked": [],
+      "bookingEnabled": true
+    }
+  ],
+  "services": [
+    {
+      "id": "wash",
+      "name": "Car wash",
+      "description": "A fresh start for your car. Explore wash options with your preferred branch.",
+      "icon": "wash",
+      "branches": {
+        "dso": {
+          "Sedan / Coupe": {
+            "duration": 30,
+            "price": 45
+          },
+          "SUV / Crossover": {
+            "duration": 45,
+            "price": 70
+          },
+          "Large SUV / Van": {
+            "duration": 45,
+            "price": 95
+          }
+        },
+        "dip": {
+          "Sedan / Coupe": {
+            "duration": 30,
+            "price": 45
+          },
+          "SUV / Crossover": {
+            "duration": 45,
+            "price": 70
+          },
+          "Large SUV / Van": {
+            "duration": 45,
+            "price": 95
+          }
+        }
+      }
+    },
+    {
+      "id": "oil",
+      "name": "Oil & filter change",
+      "description": "Give your engine the attention it deserves. Ask about oil and filter options for your vehicle.",
+      "icon": "oil",
+      "branches": {
+        "dso": {
+          "Sedan / Coupe": {
+            "duration": 45,
+            "price": 199
+          },
+          "SUV / Crossover": {
+            "duration": 60,
+            "price": 224
+          },
+          "Large SUV / Van": {
+            "duration": 60,
+            "price": 249
+          }
+        },
+        "dip": {
+          "Sedan / Coupe": {
+            "duration": 45,
+            "price": 199
+          },
+          "SUV / Crossover": {
+            "duration": 60,
+            "price": 224
+          },
+          "Large SUV / Van": {
+            "duration": 60,
+            "price": 249
+          }
+        }
+      }
+    },
+    {
+      "id": "interior",
+      "name": "Interior detailing",
+      "description": "Care for the space you spend time in, with attention to your cabin\u2019s surfaces and finishes.",
+      "icon": "interior",
+      "branches": {
+        "dso": {
+          "Sedan / Coupe": {
+            "duration": 120,
+            "price": 299
+          },
+          "SUV / Crossover": {
+            "duration": 135,
+            "price": 324
+          },
+          "Large SUV / Van": {
+            "duration": 135,
+            "price": 349
+          }
+        },
+        "dip": {
+          "Sedan / Coupe": {
+            "duration": 120,
+            "price": 299
+          },
+          "SUV / Crossover": {
+            "duration": 135,
+            "price": 324
+          },
+          "Large SUV / Van": {
+            "duration": 135,
+            "price": 349
+          }
+        }
+      }
+    },
+    {
+      "id": "exterior",
+      "name": "Exterior detailing",
+      "description": "Bring the focus back to your finish. Discuss exterior care suited to your car\u2019s condition.",
+      "icon": "exterior",
+      "branches": {
+        "dso": {
+          "Sedan / Coupe": {
+            "duration": 120,
+            "price": 349
+          },
+          "SUV / Crossover": {
+            "duration": 135,
+            "price": 374
+          },
+          "Large SUV / Van": {
+            "duration": 135,
+            "price": 399
+          }
+        },
+        "dip": {
+          "Sedan / Coupe": {
+            "duration": 120,
+            "price": 349
+          },
+          "SUV / Crossover": {
+            "duration": 135,
+            "price": 374
+          },
+          "Large SUV / Van": {
+            "duration": 135,
+            "price": 399
+          }
+        }
+      }
+    },
+    {
+      "id": "full",
+      "name": "Full detailing",
+      "description": "Interior and exterior care, brought together. Request a tailored scope for your vehicle.",
+      "icon": "full",
+      "branches": {
+        "dso": {
+          "Sedan / Coupe": {
+            "duration": 240,
+            "price": 599
+          },
+          "SUV / Crossover": {
+            "duration": 255,
+            "price": 624
+          },
+          "Large SUV / Van": {
+            "duration": 255,
+            "price": 649
+          }
+        },
+        "dip": {
+          "Sedan / Coupe": {
+            "duration": 240,
+            "price": 599
+          },
+          "SUV / Crossover": {
+            "duration": 255,
+            "price": 624
+          },
+          "Large SUV / Van": {
+            "duration": 255,
+            "price": 649
+          }
+        }
+      }
+    }
+  ],
+  "previewMode": true
+}
